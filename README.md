@@ -1,2 +1,14 @@
-# Intro-to-GNC-Kalman-Filter-Sensor-Fusion-in-MATLAB
-Sensor fusion project implementing a Kalman Filter in MATLAB to estimate position and velocity from noisy GPS and IMU data. Demonstrates key GNC concepts including state estimation, system modeling, and filter tuning for navigation systems.
+# Kalman Filter Sensor Fusion: GPS + IMU Navigation in MATLAB
+
+This project demonstrates how to estimate the position and velocity of a moving vehicle using a **Kalman Filter** that fuses **noisy GPS** and **IMU acceleration** data in MATLAB. It showcases foundational techniques in **Guidance, Navigation, and Control (GNC)**.
+
+## 🛰️ Project Summary
+
+- Simulated 1D vehicle motion with constant acceleration
+- Synthetic sensor measurements:
+  - Noisy GPS (low-frequency position)
+  - Noisy IMU (high-frequency acceleration)
+- Kalman Filter used to:
+  - Predict system state from a physics-based motion model
+  - Correct estimates using noisy GPS data
+- Visual comparison of true state, raw measurements, and filtered estimates
